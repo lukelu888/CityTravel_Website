@@ -37,7 +37,10 @@ class Order{
     {
         $this->description = $description;
     }
-
+    public function test($description)
+    {
+        $this->description = $description;
+    }
    
     
 }
